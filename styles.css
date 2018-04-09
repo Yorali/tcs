@@ -1,0 +1,111 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: rgb(122, 121, 121);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+li a:hover {
+    background-color: rgb(54, 53, 53);
+}
+.navTitle{
+    float: left;
+    color: rgb(122, 121, 121);
+    font-size: 24px;
+    padding-top: .5%;
+    padding-left: 1%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.contain{
+    height: 500px;
+    background-color: aqua;
+}
+
+.bottom{
+    height: 250px;
+    background-color: blueviolet;
+}
+
+.c_1{
+    width: 300px;
+    background-color: blue;
+}
+
+
+body {
+    background-color: black;
+}
+
+
+.container {
+    width: 100%;
+    margin-top: 10%;
+    background-color: black;
+}
+
+img {
+    height: 400px;
+    margin-left: 28.5%;
+}
+
+.title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 48px;
+    margin-left: 30%;
+}
+
+.title2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    margin-left: 45%;
+}
+
+@media screen and (max-width: 700px) {
+    img {
+        height: 250px;
+    }
+    .title {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 32px;
+        margin-left: 28%;
+    }
+    
+    .title2{
+        font-family: 'PT Sans', sans-serif;
+        font-size: 24px;
+        margin-left: 45%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    img {
+        height: 150px;
+        margin-left: 24%;
+    }
+    .title {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 24px;
+        margin-left: 17%;
+    }
+    
+    .title2{
+        font-family: 'PT Sans', sans-serif;
+        font-size: 12px;
+        margin-left: 42%;
+    }
+}
