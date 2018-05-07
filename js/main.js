@@ -9,7 +9,7 @@
     
     var cfg = {
         scrollDuration : 800, // smoothscroll duration
-        mailChimpURL   : 'totalcannabissolution.us18.list-manage.com/subscribe/post?u=9592b8192b1c85c7e1dc63417&amp;id=af43f9c7da'   // mailchimp url
+        mailChimpURL   : 'https://totalcannabissolution.us18.list-manage.com/subscribe/post?u=9592b8192b1c85c7e1dc63417&amp;id=af43f9c7da'   // mailchimp url
     },
 
     $WIN = $(window);
